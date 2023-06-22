@@ -1,0 +1,171 @@
+
+*{
+    font-family: 'Robot', sans-serif;
+}
+
+h2{
+    font-size: 2em;
+}
+
+.banniere{
+    padding: 800px 100px 800px 100px;
+    color: #FFF8F8;
+    text-align: center;
+    font-size: 3em;
+    background-image: url('images/OIP-2.jpg');
+    background-attachment: fixed; 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: underline; 
+}
+
+
+.element2, .element3{         /* Début de l'onglet */ 
+    color: black;
+    padding: 3em; 
+    border-top : 2px solid black;
+    border-bottom : 2px solid black;
+    background-color: #E5E5E5;     
+}
+
+.element1{
+    color: black;
+    padding: 3em; 
+    border-left : 2px solid black;
+    border-top : 2px solid black;
+    border-bottom : 2px solid black;
+    background-color: #E5E5E5; 
+    border-radius: 10px 0px 0px 10px; 
+}
+
+.element4{
+    color: black;
+    padding: 3em; 
+    border-right : 2px solid black;
+    border-top : 2px solid black;
+    border-bottom : 2px solid black;
+    background-color: #E5E5E5; 
+    border-radius: 0px 10px 10px 0px; 
+}
+
+.element1:hover, .element2:hover, .element3:hover, .element4:hover{
+    background-color: #A9A9A9;
+}
+
+.container{        /* fin de l'onglet */ 
+    display: flex; 
+    justify-content: center;
+    
+}
+
+
+.element2_2, .element3_2, .element4_2{         /* Début de l'onglet */ 
+    color: black;
+    padding: 3em; 
+    border-top : 2px solid black;
+    border-bottom : 2px solid black;
+    background-color: #E5E5E5;     
+}
+
+.element1_2{
+    color: black;
+    padding: 3em; 
+    border-left : 2px solid black;
+    border-top : 2px solid black;
+    border-bottom : 2px solid black;
+    background-color: #E5E5E5; 
+    border-radius: 10px 0px 0px 10px; 
+}
+
+.element5_2{
+    color: black;
+    padding: 3em; 
+    border-right : 2px solid black;
+    border-top : 2px solid black;
+    border-bottom : 2px solid black;
+    background-color: #E5E5E5; 
+    border-radius: 0px 10px 10px 0px; 
+}
+
+.element1_2:hover, .element2_2:hover, .element3_2:hover, .element4_2:hover, .element5_2:hover{
+    background-color: #A9A9A9;
+}
+
+.container1_2{        /* fin de l'onglet */ 
+    display: flex; 
+    justify-content: center;
+    
+}
+
+.element2_3, .element3_3, .element4_3{         /* Début de l'onglet */ 
+    color: black;
+    padding: 3em; 
+    border-top : 2px solid black;
+    border-bottom : 2px solid black;
+    background-color: #E5E5E5;     
+}
+
+.element1_3{
+    color: black;
+    padding: 3em; 
+    border-left : 2px solid black;
+    border-top : 2px solid black;
+    border-bottom : 2px solid black;
+    background-color: #E5E5E5; 
+    border-radius: 10px 0px 0px 10px; 
+}
+
+.element5_3{
+    color: black;
+    padding: 3em; 
+    border-right : 2px solid black;
+    border-top : 2px solid black;
+    border-bottom : 2px solid black;
+    background-color: #E5E5E5; 
+    border-radius: 0px 10px 10px 0px; 
+}
+
+.element1_3:hover, .element2_3:hover, .element3_3:hover, .element4_3:hover, .element5_3:hover{
+    background-color: #A9A9A9;
+}
+
+.container1_3{        /* fin de l'onglet */ 
+    display: flex; 
+    justify-content: center;
+    
+}
+
+.robot{
+    width: 100px; 
+    height: 100px; 
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.barre{
+   min-width: 50px; 
+   border-color: black; 
+}
+
+.container3{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    min-height:700px; 
+}
+
+.brique, .batterie{
+    display:flex; 
+    align-items: center; 
+    flex-direction: column; 
+}
+
+pre{
+    width: 60em; 
+}
